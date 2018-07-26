@@ -1,4 +1,5 @@
-FROM ubuntu:18.04
+ARG UBUNTU_VERSION
+FROM ubuntu:${UBUNTU_VERSION} 
 
 MAINTAINER Billy Ray Teves <billyteves@gmail.com>
 
